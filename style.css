@@ -1,5 +1,85 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500);
 
+
+
+.SkillsAch .row {
+    border-top: 20px;
+    margin-top: 40px;
+  }
+  .SkillsAch .col-lg-3 {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .SkillsAch h2 {
+    font-weight: normal;
+  }
+  .SkillsAch .col-lg-3 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .SkillsAch .col-lg-3 p a {
+    color: #F8F8F8;
+  
+  }
+
+  .int6:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ border: 2px solid black;
+ border-radius: 15%;
+ margin-bottom: 10px;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+.int1:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ border: 2px solid black;
+ border-radius: 15%;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+.int2:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ border: 2px solid black;
+ border-radius: 15%;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+.int3:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ border: 2px solid black;
+ border-radius: 15%;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+.int4:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ border: 2px solid black;
+ border-radius: 15%;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+.int5:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ border: 2px solid black;
+ border-radius: 15%;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+
+
 .iframe-container{
     position: relative;
     width: 250px;
@@ -57,80 +137,9 @@
 }
 
 
-.card{
-    border-radius: 20px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  padding: 14px 80px 18px 36px;
-  cursor: pointer;
-  color: white;
-  text-align: left;
-}
 
-.card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
 
-.card h3{
-  font-weight: 600;
-}
-
-.card img{
-  position: absolute;
-  top: 20px;
-  right: 15px;
-  max-height: 120px;
-}
-
-.card-1{
-  background-image: url(https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-3/512/Bodybuilding_dumbbell_health_sports_fitness_weight-512.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.card-2{
-   background-image: url(https://odysseyonline-img.rbl.ms/simage/https%3A%2F%2Faz616578.vo.msecnd.net%2Ffiles%2F2016%2F04%2F23%2F635970231165433632621651487_Feed%2BYour%2BBrain%2BMusic.jpg/2000%2C2000/Od72BHEY1HiSgDEj/img.jpg);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.card-3{
-   background-image: url(https://cdn2.iconfinder.com/data/icons/jetflat-vehicles/90/001_036_plane_flying_aircraft_airplane-512.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.card-4{
-  background-image: url(https://bootstraplogos.com/wp-content/uploads/edd/2018/07/logo-6.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.card-5{
-   background-image: url(http://pngimg.com/uploads/football/football_PNG52781.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-.card-6{
-   background-image: url(https://cdn2.iconfinder.com/data/icons/essentials-volume-3/128/medal-3-512.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-}
-
-@media(max-width: 990px){
-  .card{
-    margin: 20px;
-  }
-} 
+ 
 
 
 
