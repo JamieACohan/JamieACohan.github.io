@@ -1,0 +1,120 @@
+
+.navbar-primary .searchField {
+    text-align: center;
+    position: center;
+    
+    margin: 10%;
+    border: #000;
+    border-radius: 15%;
+}
+
+
+form .searchField {
+    max-width: 80%;
+    
+    position: center;
+    
+}
+
+
+
+ <form id="search" class="search" action="http://www.google.com/search" method="get" onsubmit="Gsitesearch(this)">
+                    <input name="q" type="hidden">
+                    <input name="qfront" type="search" required="" class="searchField" placeholder="Google Search" maxlength="50">
+                    
+                  </form>
+
+
+
+<script>
+    var domainroot=""
+    function Gsitesearch(curobj){
+    curobj.q.value=""+domainroot+" "+curobj.qfront.value
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="social">
+	<div class="fab paypal" data-tooltip="Donate">
+		<div class="round-overflow">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="DS2EQYZC3X6W2">
+				<input type="image" src="/img/vectors/PayPal.svg" style="width: 100%; outline: 0;" name="submit" alt="PayPal">
+			</form>
+		</div>
+	</div>
+<a href="https://www.facebook.com/pages/Calvary-Bible-Wesleyan-Church-School/1392855637661677" target="_blank">
+<div class="fab facebook" data-tooltip="Facebook">
+</div>
+</a>
+
+<a href="https://maps.google.com/maps?ll=39.691908,-86.372769&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;cid=14439355447752570597" target="_blank">
+<div class="fab maps" data-tooltip="Driving Directions">
+</div>
+</a>
+
+<div class="fab email" data-tooltip="Email Us">
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="share active hover" tooltip="Share">
+<a href="https://twitter.com/share?url=http%3A%2F%2Fcbwconline.com/" target="_blank" title="Twitter">
+<div class="fab active">
+</div>
+</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http://cbwconline.com/" target="_blank" title="Facebook">
+<div class="fab active">
+</div>
+</a>
+<a href="https://plus.google.com/share?url=http://cbwconline.com/" target="_blank" title="Google +">
+<div class="fab active">
+</div>
+</a>
+<div class="share active hover" tooltip="Share">
+<a href="https://twitter.com/share?url=http%3A%2F%2Fcbwconline.com/" target="_blank" title="Twitter">
+<div class="fab active">
+</div>
+</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http://cbwconline.com/" target="_blank" title="Facebook">
+<div class="fab active">
+</div>
+</a>
+<a href="https://plus.google.com/share?url=http://cbwconline.com/" target="_blank" title="Google +">
+<div class="fab active">
+</div>
+</a>
+</div>
+</div>
+
+
+
+.share {
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5.5em;
+    right: 1em;
+    cursor: pointer;
+    z-index: 5;
+    transition: bottom .4s;
+}
