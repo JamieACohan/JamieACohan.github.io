@@ -78,12 +78,19 @@
  margin-top: 25px;
 }
 
-
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500em;
+    height: 100%;
+    border: 0;
+}
 
 .iframe-container{
     position: relative;
-    width: 250px;
-    padding-bottom: 100%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+   
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
     margin-bottom: 10px;
 }
 .iframe-container > *{
