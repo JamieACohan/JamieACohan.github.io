@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500);
 
-
+#PocketBtn{
+  color: white;
+}
+#TCBtn{
+  color: white;
+}
 
 .SkillsAch .row {
     border-top: 20px;
